@@ -2,31 +2,100 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
     <title>Mi Sitio Web</title>
+    <style>
+        /* Fondo general */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #d9a7c7, #fffcdc); /* degradado pastel morado-rosado */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Contenedor principal */
+        .container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 90%;
+            max-width: 600px;
+        }
+
+        /* Encabezado */
+        h1 {
+            color: #6a5acd; /* morado pastel */
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* Botones generales */
+        .btn {
+            display: block;
+            width: 100%;
+            border: none;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: #fff;
+        }
+
+        /* Colores pastel diferentes para cada botón */
+        .btn1 { background: #a3d8f4; } /* azul pastel */
+        .btn1:hover { background: #89c2d9; }
+
+        .btn2 { background: #f7a1c4; } /* rosa pastel */
+        .btn2:hover { background: #e68bb0; }
+
+        .btn3 { background: #c3aed6; } /* morado pastel */
+        .btn3:hover { background: #b39bc8; }
+
+        .btn4 { background: #f9d5e5; } /* rosa claro */
+        .btn4:hover { background: #f7c6da; }
+
+        .btn5 { background: #b5ead7; } /* verde-azulado pastel */
+        .btn5:hover { background: #9fd8c2; }
+
+        .btn6 { background: #ffdac1; } /* durazno pastel */
+        .btn6:hover { background: #ffc9a9; }
+
+        .btn7 { background: #e0bbe4; } /* lila pastel */
+        .btn7:hover { background: #d1a9d6; }
+
+        .btn8 { background: #c7ceea; } /* azul lavanda pastel */
+        .btn8:hover { background: #b6bde0; }
+    </style>
 </head>
 <body>
 
-    <h1>Bienvenido</h1>
-    <p>Visitar página web:</p>
+    <div class="container">
+        <h1>Bienvenido</h1>
+        <p>Visitar página web:</p>
 
-   <button onclick="window.open('https://nataly4321bu-bit.github.io/practica_html5-/')">HTML 5</button>
-   <br>
-   <button onclick="window.open('https://nataly4321bu-bit.github.io/App_Emprendimiento/')">Korean Shop</button>
-    <br>
-   <button onclick="window.open('https://nataly4321bu-bit.github.io/MI_APP/')">App Web</button>
-    <br>
-   <button onclick="window.open('https://nataly4321bu-bit.github.io/P3_IOS_EJEMPLOAPP/')">Cafetería Escolar </button>
-    <br>
-   <button onclick="window.open('https://nataly4321bu-bit.github.io/practicaHTML-GYM-Y-EJERCICIO/')" >GYM-EJERCICIO </button>
-    <br>
-    <button onclick="window.open('https://nataly4321bu-bit.github.io/HOLA-MUNDO/')" >Hola Mundo </button>
-    <br>
-       <button onclick="window.open('https://nataly4321bu-bit.github.io/APP_IOS/')" >App Web</button>
-   </button>
-    <br>
-   <button onclick="window.open('https://nataly4321bu-bit.github.io/PRACTICA2-SUB2-NATALIROJASQUINTERO/')">Practica 2</button>
-    <br>
+        <button class="btn btn1" onclick="window.open('https://nataly4321bu-bit.github.io/practica_html5-/')">HTML 5</button>
+        <button class="btn btn2" onclick="window.open('https://nataly4321bu-bit.github.io/App_Emprendimiento/')">Korean Shop</button>
+        <button class="btn btn3" onclick="window.open('https://nataly4321bu-bit.github.io/MI_APP/')">App Web</button>
+        <button class="btn btn4" onclick="window.open('https://nataly4321bu-bit.github.io/P3_IOS_EJEMPLOAPP/')">Cafetería Escolar</button>
+        <button class="btn btn5" onclick="window.open('https://nataly4321bu-bit.github.io/practicaHTML-GYM-Y-EJERCICIO/')">GYM-EJERCICIO</button>
+        <button class="btn btn6" onclick="window.open('https://nataly4321bu-bit.github.io/HOLA-MUNDO/')">Hola Mundo</button>
+        <button class="btn btn7" onclick="window.open('https://nataly4321bu-bit.github.io/APP_IOS/')">App Web</button>
+        <button class="btn btn8" onclick="window.open('https://nataly4321bu-bit.github.io/PRACTICA2-SUB2-NATALIROJASQUINTERO/')">Practica 2</button>
+    </div>
 
 </body>
 </html>
