@@ -1,0 +1,36 @@
+body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #8FB6D8, #CFE3F1, #EDF4FA);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      color: #f0ebeb;
+      margin: 30px 0;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    .repo {
+      background: #bc1111;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 12px;
+      width: 300px;
+      box-shadow: 0 6px 12px rgba(56, 89, 110, 0.714);
+      transition: transform 0.3s ease;
+    }
+    .repo:hover {
+      transform: scale(1.05);
+    }
+    .repo h2 {
+      margin: 0 0 10px;
+      font-size: 1.3rem;
+      color: #e20606;
+    }
+
+    .repo button:hover {
+      background: linear-gradient(135deg, #ff6a00, #ee0979);
+    }
